@@ -2,6 +2,7 @@ body{
     background-color: #008AC1;
   }
 
+
 #myBox {
     position: absolute;
     left: 37%;
@@ -19,6 +20,20 @@ body{
     height: auto;
 }
 
+  #botonCuenta {
+    background-color: #09ff00;
+    border-radius: 20px;
+    position: absolute;
+    left: 6%;
+    top: 35px;
+    width: 150px;
+    height: 60px;
+}
+
+#botonCuenta p {
+    font-size: 20px;
+}
+
 #cuadro-inf {
     position: absolute;
     left: 32%;
@@ -32,3 +47,6 @@ body{
     overflow: hidden;
     border: 10px solid black;
 }
+
+
+
