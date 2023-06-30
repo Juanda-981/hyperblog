@@ -1,20 +1,34 @@
-body 
-{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Courier;
+body{
+    background-color: #008AC1;
+  }
+
+#myBox {
+    position: absolute;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;
+}
+#myBox img {
+    width: 100%;
+    height: auto;
 }
 
-#container 
-{
-    width: 70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
-}
-
-#container h1 
-{
-    font-size: 20px;
+#cuadro-inf {
+    position: absolute;
+    left: 32%;
+    top: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 475px;
+    height: 386px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;
 }
