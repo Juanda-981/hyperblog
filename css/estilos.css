@@ -1,0 +1,49 @@
+body{
+    background-color: #008AC1;
+  }
+
+  #botonCuenta {
+    background-color: #09ff00;
+    border-radius: 20px;
+    position: absolute;
+    left: 6%;
+    top: 35px;
+    width: 150px;
+    height: 60px;
+}
+
+#botonCuenta p {
+    font-size: 20px;
+}
+
+#myBox {
+    position: absolute;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;
+}
+#myBox img {
+    width: 100%;
+    height: auto;
+}
+
+#cuadro-inf {
+    position: absolute;
+    left: 32%;
+    top: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 475px;
+    height: 386px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;
+}
+
