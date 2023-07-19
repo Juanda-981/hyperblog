@@ -1,5 +1,5 @@
 body{
-    background-color: #8400c1;
+    background-color: #008AC1
   }
 
 
@@ -15,6 +15,7 @@ body{
     overflow: hidden;
     border: 10px solid black;
 }
+
 #myBox img {
     width: 100%;
     height: auto;
