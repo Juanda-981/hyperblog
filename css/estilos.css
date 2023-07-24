@@ -21,7 +21,21 @@ body{
     height: auto;
 }
 
-  #botonCuenta {
+#myBox2 {
+    position: absolute;
+    left: 1%;
+    top: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 417px;
+    height: 479px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 0px solid black;
+}
+
+#botonCuenta {
     background-color: #09ff00;
     border-radius: 20px;
     position: absolute;
@@ -33,13 +47,21 @@ body{
 
 #botonCuenta p {
     font-size: 20px;
+    position: absolute;
+    top: -12px;
 }
 
+#texto2 {
+    position: absolute;
+    top: 12px; 
+    font-size: 140%;
+    color: rgb(255, 255, 255);
+}
 
 #cuadro-inf {
     position: absolute;
     display: flex;
-    left: 32%;
+    left: 35%;
     top: 225px;
     justify-content: center;
     align-items: center;
@@ -48,4 +70,16 @@ body{
     border-radius: 25px;
     overflow: hidden;
     border: 10px solid black;
+}
+
+#fondo-de-texto {
+    position: absolute;
+    left: -2%;
+    top: -8px;
+    display: flex;
+    width: 482px;
+    height: 82px;
+    border-radius: 25px;
+    border: 5px solid black;
+    background-color: black;
 }
