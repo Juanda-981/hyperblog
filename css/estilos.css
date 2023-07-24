@@ -1,5 +1,5 @@
 body{
-    background-color: #008AC1
+    background-color: #c10000
   }
 
 
@@ -48,4 +48,55 @@ body{
     border-radius: 25px;
     overflow: hidden;
     border: 10px solid black;
+}
+#but1 {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;  
+}
+#but2 {
+    position: absolute;
+    left: 70%;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;  
+}
+#but3 {
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 10px solid black;  
+}
+#but1 img {
+    width: 100%;
+    height: auto;
+}
+#but2 img {
+    width: 100%;
+    height: auto;
+}
+#but3 img {
+    width: 100%;
+    height: auto;
 }
