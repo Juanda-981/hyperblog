@@ -38,9 +38,9 @@ body{
 
 #cuadro-inf {
     position: absolute;
+    display: flex;
     left: 32%;
     top: 225px;
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 475px;
